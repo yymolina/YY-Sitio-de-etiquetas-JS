@@ -13,10 +13,10 @@ body{
     
 }
 .header-icon-container{
-  width: 100%;
-  height: 60px;
-  display:grid;
-  background-color: #dddf60;
+    width: 100%;
+    height: 60px;
+    display:grid;
+    background-color: #dddf60;
 }
 .container-menu{
     max-width: 1200px;
@@ -40,8 +40,6 @@ body{
     cursor: pointer;
     transition: 0.5s;
     object-fit: cover;
-   
-   
 }
 .col-6:hover{
     transform: scale(1.05);
