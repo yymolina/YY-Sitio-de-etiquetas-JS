@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Etiquetas html5</title>
+</head>
+<body>
+    <header>
+        <section class="header-icon-container">
+            <div class="icons">
+                <img src="img/html5.png" width="40px">
+                <img src="img/html5.png" width="40px">
+                <img src="img/html5.png" width="40px">
+            </div>
+            <div class="icons-two">
+                <img src="img/html5.png" width="40px">
+                <img src="img/html5.png" width="40px">
+                <img src="img/html5.png" width="40px">
+            </div>
+        </section>
+    </header>
+    <h1>ETIQUETAS HTML</h1>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="select"><strong>select</strong></h2>
+                    <p>La etiqueta select se utiliza para crear menús desplegables para que los usuarios puedan seleccionar el valor que deseen. Es una función instrumental para recopilar datos que se envían a un servidor. Ejemplo:</p>
+                    <br>
+                    <select name="ciudad" id="ciudad">
+                        <option value="bucaramanga">Bucaramanga</option>
+                        <option value="giron">Giron</option>
+                    </select>
+                    <div class="img-container">
+                        <img src="img/select.jpg">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="option"><strong>option</strong></h2>
+                    <p>Se usa para representar un item dentro de un select. Define una opción seleccionable en un elemento select. Ejemplo:</p> 
+                    <br>
+                    <select name="pais" id="pais">
+                        <option value="chile">Chile</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="ecuador">Ecuador</option>
+                    </select>
+                    <div class="img-container">
+                        <img src="img/option.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="button"><strong>button</strong></h2>
+                    <p>Crea un botón. Ejemplo:</p>
+                    <br>
+                    <button>buscar</button>
+                    <div class="img-container">
+                        <img src="img/button.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="label"><strong>label</strong></h2>
+                    <p>Etiqueta para un elemento de formulario, proporciona una descripción o nombre para el elemento. Ejemplo:</p>
+                    <br>
+                    <label>Ingrese nombre <input type="text"/></label>
+                    <div class="img-container">
+                        <img src="img/label.png">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="script"><strong>script</strong></h2>
+                    <p>Permite la inserción de códigos script, como puede ser JavaScript en un documento web del lado del cliente. El código se puede insertar directamente entre las etiquetas o haciendo referencia a un documento externo el cual contiene el código script a ejecutar. Ejemplo:</p>
+                    <code>&lt;script src="js/ejemplo.js"&gt;&lt;/script&gt;</code>
+                    <div class="img-container">   
+                        <img src="img/script.png">
+                    </div> 
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="link"><strong>link</strong></h2>
+                    <p>Es un elemento clave en el desarrollo y diseño web, ya que permite establecer relaciones y conexiones entre el documento HTML y recursos externos, como hojas de estilo CSS, íconos de favoritos, fuentes web, entre otros. Ejemplo:</p>
+                    <code>&lt;link rel="ejemplo" href="www.ejemplo.com"&gt;</code>
+                    <div class="img-container">   
+                        <img src="img/link.png">
+                    </div> 
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="meta"><strong>meta</strong></h2>
+                    <p>Define metadatos sobre el documento, como el juego de caracteres, la descripción y palabras clave. Ejemplo:</p>
+                    <code>&lt;meta name="nombre" content="yeraldine molina"&gt;</code>
+                    <div class="img-container">
+                        <img src="img/meta.jpg">
+                    </div> 
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="strong"><strong>strong</strong></h2>
+                    <p>Muestra el texto en negrita. Ejemplo:</p>
+                    <p>Esto es un ejemplo <strong>Esto es un ejemplo</strong></p>
+                    <div class="img-container">
+                        <img src="img/strong.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="time"><strong>time</strong></h2>
+                    <p>Define una fecha o hora específica. Ejemplo:</p>
+                    <p>La reunios esta programada para el <time datetime="2023-06-10">10 de junio</time></p>
+                    <div class="img-container">
+                        <img src="img/time.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="details"><strong>details, summary</strong></h2>
+                    <p><strong>details: </strong>Crea un elemento desplegable para mostrar u ocultar contenido adicional.<br><strong>summary: </strong>Define el texto visible para el elemento.</p>
+                    <details>
+                        <summary>Contenido adicional</summary>
+                        <p>Este es contenido adicional para ejecutar el ejemplo solicitado por el instructor.</p>
+                    </details>
+                    <div class="img-container">
+                        <img src="img/details.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="aside"><strong>aside</strong></h2>
+                    <p>Representa contenido relacionado pero no esencial o tangencial al contenido principal. Ejemplo:</p>
+                    <div class="img-container">
+                        <img src="img/aside.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2><strong>hr</strong></h2>
+                    <p>Crea una línea horizontal. Ejemplo:</p>
+                    <hr>
+                    <div class="img-container">
+                        <img src="img/hr.png">
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="section"><strong>section</strong></h2>
+                    <p>Representa una sección temática o agrupación lógica de contenido. Ejemplo:</p>
+                    <div class="img-container">
+                        <img src="img/section.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2><strong>figure</strong></h2>
+                    <p>El elemento img representa a una imagen, lo cual es un recurso externo que puede ser incrustado en el cuerpo de un documento. Ejemplo:</p>
+                    <code>&lt;img src="img/img.jpg"&gt;</code>
+                    <div class="img-container">
+                        <img src="img/img.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2><strong>code y pre</strong></h2>
+                    <p><strong>code:</strong> Se utiliza para representar fragmentos de código en línea dentro de un documento. Se utiliza para resaltar y distinguir visualmente el código del texto normal.<br><strong>pre:</strong> se utiliza para mostrar texto preformateado, es decir, texto en el que se mantiene la estructura de espacios en blanco, saltos de línea y otros caracteres tal como están en el código fuente.</p>
+                    <div class="img-container">
+                        <img src="img/code.jpg">
+                    </div>  
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2><strong>em, del y mark</strong></h2>
+                    <p><strong>em:</strong>Muestra el texto en cursiva o énfasis.<br><strong>del:</strong>Muestra el texto como eliminado o tachado.<br><strong>Mark:</strong>Resalta o marca una parte del texto.<br>Ejemplo:</p>
+                    <p><em>La historia de la programación se encuentra fuertemente relacionada con la computación, puesto que a partir de la </em><del>aparición de los ordenadores fue que esta empezó a tener relevancia para la sociedad, </del><mark>debido a la velocidad con la cual se podían ejecutar tareas mecánicas mediante la codificación de comandos.</mark></p>
+                    <div class="img-container">
+                        <img src="img/em.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2><strong>video, source</strong></h2>
+                    <p><strong>video: </strong>iIdica al navegador que cargue un archivo de vídeo desde otra fuente, especificando la ubicación del archivo de vídeo, de forma similar a como un navegador carga un archivo de imagen.<br><strong>source: </strong>especifica recursos de medios múltiples para los elementos picture, audio, video.<br>Ejemplo:</p> 
+                    <div class="img-container">
+                        <img src="img/video.png">
+                    </div> 
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2><strong>audio</strong></h2>
+                    <p>se usa para insertar contenido de audio en un documento HTML o XHTML. Ejemplo:</p>
+                    <div class="img-container">
+                        <img src="img/audio.png"> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="table"><strong>table, tr, th y td</strong></h2>
+                    <p><strong>table:</strong> encierra todas las filas y columnas de la tabla.<br><strong>tr:</strong> esta etiqueta definen cada fila de la tabla y encierran todas las columnas.<br><strong>th:</strong> representa a una celda de encabezado en una tabla (table). Las celdas de encabezado están pensadas para proveer información de encabezado para las celdas de datos td. <br><strong>td:</strong> se utiliza para definir una celda de datos en una tabla. Ejemplo:</p>
+                    <br>
+                    <table>
+                        <tr>
+                        <th>Libro</th>
+                        <th>Año</th>
+                        </tr>
+                        <tr>
+                        <td>Regeneration</td>
+                        <td>1991</td>
+                        </tr>
+                        <tr>
+                        <td>Sálvese quien pueda</td>
+                        <td>1996</td>
+                        </tr>
+                    </table>
+                    <div class="img-container">
+                        <img src="img/table.jpg.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="box">
+                    <h2 id="nav"><strong>nav, ul, li</strong></h2>
+                    <p><strong>nav:</strong> define una sección de navegación dentro de un documento o un área de navegación global.</p>
+                    <p><strong>ul:</strong> es una herramienta esencial para crear listas desordenadas en un documento web. Se utiliza para presentar una serie de elementos relacionados que no tienen un orden específico.</p>
+                    <p><strong>li:</strong> es una etiqueta que se utiliza para representar un elemento de lista en una lista ordenada. <br>Ejemplo:</p>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Sobre nosotros</a></li>
+                        </ul>
+                    </nav>
+                    <div class="img-container">
+                        <img src="img/nav.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="secction-button-container">
+        <div>
+            <a href="etiquetas.html"><button class="pag-button">Siguiente</button></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <P>AUTORES: Yeraldine Molina y Jose Pedrozo</p>
+        </div>
+        <div class="footer-container-p">
+            <p>PROGRAMACIÓN DE SOFTWARE 2671591</p>
+        </div>
+    </footer>
+
+</body>
